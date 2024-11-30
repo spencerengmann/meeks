@@ -1,0 +1,84 @@
+@media screen and (min-width: 768px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #nav-menu {
+        display: flex;
+    }
+
+    nav ul {
+        flex-direction: row;
+
+
+    }
+
+    nav ul li a {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .menu-show,
+    .menu-hide,
+    .menu-show.showing,
+    .menu-hide.showing {
+        display: none;
+    }
+
+    .aboutme {
+        width: auto;
+        height: 350
+    }
+
+    .aboutme .about-container {
+        display: flex;
+        align-items: center;
+
+    }
+
+    #aboutme img {
+        max-width: 300px;
+        height: 350px
+    }
+
+    .aboutme p {
+        flex: 1;
+
+    }
+
+    .services {
+        /* display:flex; */
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .hero-text {
+        position: absolute;
+        background-color: var(--border-background-color);
+        top: 30%;
+        left: 30%;
+        color: white;
+        border-radius: 5px;
+        height: 120px;
+        justify-content: center;
+
+        padding: 5px;
+        font-size: 1.5em;
+    }
+
+    .hero-text p {
+        padding: 20px
+    }
+
+    #book-button {
+        font-size: 1.7em;
+        top: 60%;
+        left: 45%;
+        
+    }
+
+
+}

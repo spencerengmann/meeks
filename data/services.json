@@ -1,0 +1,93 @@
+[
+    {
+      "id": "service1",
+      "title": "Beauty Therapy",
+      "image": "images/beauty-therapy.jpg",
+      "description": "Beauty therapy involves a range of treatments including facial treatments, massage treatments, eye treatments, nail enhancements, and more."
+    },
+    {
+      "id": "service2",
+      "title": "Hair Technology",
+      "image": "images/hairtec.webp",
+      "description": "Our hair technology services include chemical processing, hair treatments, extensions, braids, and the latest fashion hair trends."
+    },
+    {
+      "id": "service3",
+      "title": "Makeup Artistry",
+      "image": "images/makeup.jpg",
+      "description": "Our makeup artistry services aim to enhance your natural beauty, offering a range of looks for different occasions."
+    },
+    {
+      "id": "service4",
+      "title": "Nail Technology",
+      "image": "images/nails.webp",
+      "description": "We offer manicure and pedicure services, nail extensions, and other nail care treatments to keep your nails healthy and beautiful."
+    },
+    {
+      "id": "service5",
+      "title": "Spa & Massage Therapy",
+      "image": "images/spa-massage.jpg",
+      "description": "Relax and rejuvenate with our full range of spa and massage therapies, including deep tissue massage, Swedish massage, and hot stone treatments."
+    },
+    {
+      "id": "service6",
+      "title": "Skin Care & Facials",
+      "image": "images/skincare.jpg",
+      "description": "Pamper your skin with our professional facials, anti-aging treatments, exfoliations, and hydrating masks tailored to your skin's needs."
+    },
+    {
+      "id": "service7",
+      "title": "Body Contouring & Cellulite Treatments",
+      "image": "images/body-contouring.jpg",
+      "description": "Achieve a more sculpted look with our non-invasive body contouring and cellulite reduction treatments."
+    },
+    {
+      "id": "service8",
+      "title": "Eyebrow Shaping & Eyelash Extensions",
+      "image": "images/brows-lashes.jpg",
+      "description": "Enhance your look with expert eyebrow shaping and eyelash extensions, perfect for special occasions or everyday beauty."
+    },
+    {
+      "id": "service9",
+      "title": "Waxing & Hair Removal",
+      "image": "images/waxing.jpg",
+      "description": "Get smooth skin with our range of waxing and hair removal services, including bikini, leg, and underarm waxing."
+    },
+    {
+      "id": "service10",
+      "title": "Bridal & Event Packages",
+      "image": "images/bridal.jpg",
+      "description": "Make your special day unforgettable with our customized bridal and event beauty packages, including makeup, hair, and skincare."
+    },
+    {
+      "id": "service11",
+      "title": "Permanent Makeup",
+      "image": "images/permanent-makeup.jpg",
+      "description": "Our permanent makeup services offer long-lasting beauty solutions such as microblading, eyeliner, and lip tinting."
+    },
+    {
+      "id": "service12",
+      "title": "Laser Treatments",
+      "image": "images/laser-treatment.jpg",
+      "description": "We offer advanced laser treatments for hair removal, skin resurfacing, and pigmentation correction."
+    },
+    {
+      "id": "service13",
+      "title": "Hydrotherapy",
+      "image": "images/hydrotherapy.jpg",
+      "description": "Experience the healing properties of hydrotherapy with our whirlpool baths, Vichy showers, and water massage treatments."
+    },
+    {
+      "id": "service14",
+      "title": "Tanning Services",
+      "image": "images/tanning.jpg",
+      "description": "Get a natural-looking tan with our safe, professional spray tanning services, ideal for special occasions or year-round glow."
+    },
+    {
+      "id": "service15",
+      "title": "Hand and Foot Care",
+      "image": "images/hand-foot-care.jpg",
+      "description": "Our comprehensive hand and foot care includes therapeutic manicures, pedicures, and treatments to revitalize your skin."
+    }
+  ]
+  

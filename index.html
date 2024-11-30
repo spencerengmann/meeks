@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Home pagefor Meekya website" />
+    <title>Meekya</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="scripts/hamburger.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="images/meek-logo.webp" alt="logo" /> </a>
+      <h2>Meekya Cosmetology</h2>
+      <nav>
+        <button class="menu-hide">X</button
+        ><button class="menu-show showing">&equiv;</button>
+        <ul id="nav-menu">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="services.html">Services</a></li>
+          <li><a class="active" href="book.html">Book Now</a></li>
+          <li><a class="active" href="#aboutme">About Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="index-main">
+      <section id="hero">
+        <div class="hero-container">
+          <picture>
+            <source srcset="images/hero-small.webp" media="(max-width:560px)" />
+            <source
+              srcset="images/hero-medium.webp"
+              media="(max-width:700px)"
+            />
+            <img src="images/hero-medium.webp" alt="Hero image" />
+          </picture>
+          <div class="hero-text">
+            <h2>Be Bold. Be Beautiful. Be You.</h2>
+            <p>Expert care for your unique beauty needs</p>
+          </div>
+          <button id="book-button">Book now!</button>
+        </div>
+      </section>
+      <h1>Some of Our Services</h1>
+      <div class="services">
+        <section class="services-section" id="service1">
+          <h2>Beauty Therapy</h2>
+          <img src="images/beauty therapy.jpg" alt="img1" />
+          <p>
+            Beauty therapy involves a range of treatments including facial
+            treatments, massage treatments, eye treatments, nail enhancements,
+            and more.
+          </p>
+        </section>
+
+        <section class="services-section" id="service1">
+          <h2>Hair Technology</h2>
+          <img src="images/hairtec.webp" alt="img1" />
+          <p>
+            Our hair technology services include chemical processing, hair
+            treatments, extensions, braids, and the latest fashion hair trends.
+          </p>
+        </section>
+        <section class="services-section" id="service1">
+          <h2>Makeup Artistry</h2>
+          <img src="images/maekup.jpg" alt="img1" />
+          <p>
+            Our makeup artistry services aim to enhance your natural beauty,
+            offering a range of looks for different occasions.
+          </p>
+        </section>
+        <section class="services-section" id="service1">
+          <h2>Nail Technology</h2>
+          <img src="images/nails.webp" alt="img1" />
+          <p>
+            We offer manicure and pedicure services, nail extensions, and other
+            nail care treatments to keep your nails healthy and beautiful.
+          </p>
+        </section>
+      </div>
+
+      <div id="aboutme">
+        <section class="aboutme">
+          <h2>About Me</h2>
+          <div class="about-container">
+            <img src="images/picofme.jpg" alt="about" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
+              placeat numquam aut, mollitia velit officiis magnam dolor laborum
+              incidunt id eos dignissimos blanditiis maiores excepturi
+              cupiditate libero voluptas quidem obcaecati.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <div class="footer-logo">
+          <p>
+            <img
+              src="images/meek-logo.webp"
+              alt="Logo"
+              width="90"
+              height="90"
+            />
+          </p>
+        </div>
+        <div class="footer-contact-details">
+          <p><b>Meekya Cosmetology</b></p>
+          <p>Phone: +233 205 379 211</p>
+          <p>Email: dedengmann@gmail@gmail.com</p>
+        </div>
+
+        <div class="socialmedia">
+          <a href="https://www.facebook.com/">
+            <img
+              src="images/facebook.png"
+              alt="Facebook"
+              width="40"
+              height="40"
+            />
+          </a>
+
+          <a href="https://twitter.com/">
+            <img
+              src="images/twitter.png"
+              alt="Twitter"
+              width="40"
+              height="40"
+            />
+          </a>
+
+          <a href="https://www.instagram.com/">
+            <img
+              src="images/instagram.png"
+              alt="Instagram"
+              width="40"
+              height="40"
+            />
+          </a>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
