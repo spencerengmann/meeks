@@ -21,7 +21,7 @@
       "id": "service4",
       "title": "Nail Technology",
       "image": "images/nails.webp",
-      "description": "We offer manicure and pedicure services, nail extensions, and other nail care treatments to keep your nails healthy and beautiful."
+      "description": "We offer manicure and pedicure services, nail extensions, and other nail care treatments to keep your nails radiant."
     },
     {
       "id": "service5",
@@ -38,7 +38,7 @@
    
     {
       "id": "service7",
-      "title": "Eyebrow Shaping & Eyelash Extensions",
+      "title": "Eyebrow Shaping & Eyelash",
       "image": "images/brows-lashes.jpg",
       "description": "Enhance your look with expert eyebrow shaping and eyelash extensions, perfect for special occasions or everyday beauty."
     },
@@ -47,7 +47,7 @@
       "id": "service8",
       "title": "Bridal & Event Packages",
       "image": "images/bridal.jpg",
-      "description": "Make your special day unforgettable with our customized bridal and event beauty packages, including makeup, hair, and skincare."
+      "description": "Make your special day unforgettable with our customized bridal and event beauty packages, including makeup,and hair."
     }
    
   ]
