@@ -180,13 +180,35 @@ header {
     border-radius: 5px;
 }
 
-.services-section {
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.search input {
+    height: 40px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.search button {
+    cursor: pointer;
+}
+
+.content {
     border: solid 1.5px #520039;
     padding: 10px;
     border-radius: 5px;
     margin: 5px;
 
-    /* margin: 0 auto; */
+    
 }
 
 .services img {
@@ -249,6 +271,7 @@ footer img {
 
     color: white;
 }
+
 /* Main Section */
 main#book-main {
     max-width: 700px;
@@ -257,28 +280,28 @@ main#book-main {
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     padding: 30px 40px;
-  }
-  
-  main#book-main h1 {
+}
+
+main#book-main h1 {
     text-align: center;
     margin-bottom: 20px;
     color: #34495e;
-  }
-  
-  form#booking-form {
+}
+
+form#booking-form {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-  }
-  
-  form#booking-form label {
+}
+
+form#booking-form label {
     font-size: 1rem;
     font-weight: bold;
     color: #34495e;
-  }
-  
-  form#booking-form input,
-  form#booking-form textarea {
+}
+
+form#booking-form input,
+form#booking-form textarea {
     width: 100%;
     padding: 10px 15px;
     border: 1px solid #dcdcdc;
@@ -286,21 +309,21 @@ main#book-main {
     font-size: 1rem;
     background: #f9f9f9;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  }
-  
-  form#booking-form textarea {
+}
+
+form#booking-form textarea {
     resize: none;
     height: 100px;
-  }
-  
-  form#booking-form input:focus,
-  form#booking-form textarea:focus {
+}
+
+form#booking-form input:focus,
+form#booking-form textarea:focus {
     outline: none;
     border-color: #1abc9c;
     box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
-  }
-  
-  form#booking-form button {
+}
+
+form#booking-form button {
     padding: 12px 20px;
     border: none;
     border-radius: 8px;
@@ -312,9 +335,9 @@ main#book-main {
     transition: background-color 0.3s, transform 0.2s;
     text-align: center;
     margin: 0 auto;
-  }
-  
-  form#booking-form button:hover {
+}
+
+form#booking-form button:hover {
     background-color: var(--accent-color2);
     transform: scale(1.02);
-  }
+}

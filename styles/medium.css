@@ -2,4 +2,7 @@
    .hero img{
     display: none;
    }
+   .content{
+      height:600px;
+  }
 }

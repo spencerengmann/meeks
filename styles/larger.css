@@ -48,11 +48,15 @@
     }
 
     .services {
-        /* display:flex; */
+        
         justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
 
+    }
+    content{
+        height:100%
     }
 
     .hero-text {
