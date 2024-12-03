@@ -1,11 +1,11 @@
-// Load the services data from the JSON file
+
 async function loadServices() {
     const response = await fetch('data/services.json');
     const services = await response.json();
     return services;
   }
   
-  // Create the HTML structure for a single service
+  
   function serviceTemplate(service) {
     return `
       <section class="service">
@@ -19,8 +19,7 @@ async function loadServices() {
       </section>
     `;
   }
-  
-  // Render the services dynamically into the DOM
+
   function renderServices(servicesList) {
     const servicesContainer = document.querySelector('.services');
     if (servicesList.length === 0) {
@@ -32,7 +31,7 @@ async function loadServices() {
     }
   }
   
-  // Filter services based on the search query
+  
   function filterServices(services, query) {
     query = query.toLowerCase();
     return services.filter(service =>
@@ -41,7 +40,7 @@ async function loadServices() {
     );
   }
   
-  // Handle search form submission
+  
   function searchHandler(event, services) {
     event.preventDefault();
     const searchInput = document.querySelector('.search input');
@@ -51,22 +50,22 @@ async function loadServices() {
       const filteredServices = filterServices(services, query);
       renderServices(filteredServices);
     } else {
-      renderServices(services); // If the query is empty, show all services again
+      renderServices(services); 
     }
   }
   
-  // Initialize the page
+  
   async function init() {
     const services = await loadServices();
   
-    // Render all services initially
+    
     renderServices(services);
   
-    // Attach the search handler to the form
+    
     const searchForm = document.querySelector('.search');
     searchForm.addEventListener('submit', event => searchHandler(event, services));
   }
   
-  // Call the init function to set everything up
+  
   init();
   

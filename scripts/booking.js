@@ -1,20 +1,30 @@
-const form = document.getElementById('booking-form');
-form.addEventListener('submit', function (event) {
-    event.preventDefault();
-    fetch('http://localhost:3000/email',{
-        method:'POST',
-        headers:{
-        'Content-Type': 'application/json'},
-        body:JSON.stringify({
-            name:form.name.value,
-            email:form.email.value,
-            phone:form.phone.value,
-            
-            date:form.date.value,
-            
-        })
-        
-     })
-     .then(res => res.json())
-     .then(data =>console.log(data))
-});
+document.addEventListener('DOMContentLoaded', () => {
+    const bookingForm = document.getElementById('booking-form');
+  
+    bookingForm.addEventListener('submit', (event) => {
+      event.preventDefault(); 
+  
+      
+      const message = document.createElement('div');
+      message.textContent =
+        'Thank you for choosing us, we will contact you as soon as possible.';
+      message.style.cssText = `
+        background-color: #4caf50;
+        color: white;
+        padding: 15px;
+        text-align: center;
+        margin-top: 20px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+      `;
+  
+     
+      bookingForm.parentElement.appendChild(message);
+  
+      
+      setTimeout(() => {
+        message.remove();
+      }, 10000);
+    });
+  });
+  
