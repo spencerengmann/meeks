@@ -208,15 +208,16 @@ header {
     border-radius: 5px;
     margin: 5px;
 
-    
+
 }
+
 .content {
     border: solid 1.5px #520039;
     padding: 10px;
     border-radius: 5px;
     margin: 5px;
 
-    
+
 }
 
 .services img {
@@ -279,6 +280,31 @@ footer img {
 
     color: white;
 }
+
+.book-hero img {
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.book-hero h1 {
+    animation: pulsate 1.5s infinite;
+    transition: all 0.3s ease;
+}
+
+@keyframes pulsate {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+}
+
 
 /* Main Section */
 main#book-main {

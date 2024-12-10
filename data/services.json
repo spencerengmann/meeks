@@ -2,51 +2,51 @@
     {
       "id": "service1",
       "title": "Beauty Therapy",
-      "image": "images/beauty-therapy.jpg",
+      "image": "images/beauty-therapy.webp",
       "description": "Beauty therapy involves a range of treatments including facial treatments, massage treatments, eye treatments, nail enhancements, and more."
     },
     {
       "id": "service2",
       "title": "Hair Technology",
-      "image": "images/hairtec.webp",
+      "image": "images/hairtech.webp",
       "description": "Our hair technology services include chemical processing, hair treatments, extensions, braids, and the latest fashion hair trends."
     },
     {
       "id": "service3",
       "title": "Makeup Artistry",
-      "image": "images/makeup.jpg",
+      "image": "images/makeup.webp",
       "description": "Our makeup artistry services aim to enhance your natural beauty, offering a range of looks for different occasions."
     },
     {
       "id": "service4",
       "title": "Nail Technology",
-      "image": "images/nails.webp",
+      "image": "images/nail.webp",
       "description": "We offer manicure and pedicure services, nail extensions, and other nail care treatments to keep your nails radiant."
     },
     {
       "id": "service5",
       "title": "Spa & Massage Therapy",
-      "image": "images/spa-massage.jpg",
+      "image": "images/spa-massage.webp",
       "description": "Relax and rejuvenate with our full range of spa and massage therapies, including deep tissue massage, Swedish massage, and hot stone treatments."
     },
     {
       "id": "service6",
       "title": "Skin Care & Facials",
-      "image": "images/skincare.jpg",
+      "image": "images/skincare.webp",
       "description": "Pamper your skin with our professional facials, anti-aging treatments, exfoliations, and hydrating masks tailored to your skin's needs."
     },
    
     {
       "id": "service7",
       "title": "Eyebrow Shaping & Eyelash",
-      "image": "images/brows-lashes.jpg",
+      "image": "images/brows-lashes.webp",
       "description": "Enhance your look with expert eyebrow shaping and eyelash extensions, perfect for special occasions or everyday beauty."
     },
     
     {
       "id": "service8",
       "title": "Bridal & Event Packages",
-      "image": "images/bridal.jpg",
+      "image": "images/bridal.webp",
       "description": "Make your special day unforgettable with our customized bridal and event beauty packages, including makeup,and hair."
     }
    
