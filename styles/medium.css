@@ -1,8 +1,0 @@
-@media screen and(min-width:560px) {
-   .hero img{
-    display: none;
-   }
-   .content{
-      height:600px;
-  }
-}

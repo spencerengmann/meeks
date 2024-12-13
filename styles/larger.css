@@ -28,7 +28,7 @@
 
     .aboutme {
         width: auto;
-        height: 350
+
     }
 
     .aboutme .about-container {
@@ -48,15 +48,16 @@
     }
 
     .services {
-        
+
         justify-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+
 
     }
-    content{
-        height:100%
+
+    content {
+        height: 100%
     }
 
     .hero-text {
@@ -81,7 +82,7 @@
         font-size: 1.7em;
         top: 60%;
         left: 45%;
-        
+
     }
 
 
